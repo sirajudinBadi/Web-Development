@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="company-logo">
+        <img
+          src="./asset/square-svg-logo.svg"
+          alt="Logo"
+          class="logo"
+          height="50"
+          width="50"
+        />
+      </div>
+
+      <div class="sign-in-text">You must sign in to join</div>
+
+      <div class="direct-login">
+        <div class="google direct">
+          <a href="#"
+            ><img
+              class="google-icon"
+              src="./asset/Google__G__logo.svg.png"
+              alt="Google Icon"
+              height="20"
+            />&nbsp;Sign in with Google</a
+          >
+        </div>
+        <div class="apple direct">
+          <a href="#"
+            ><img
+              src="./asset/apple.png"
+              alt="Apple Icon"
+              height="20"
+              width="21"
+            />Sign in with Apple</a
+          >
+        </div>
+      </div>
+
+      <div class="lines">
+        <div class="line"></div>
+        OR
+        <div class="line"></div>
+      </div>
+
+      <div class="textarea">
+        <div class="email text-container">
+          <div>
+            <label class="label" for="email">Email</label>
+          </div>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="email textbox"
+            placeholder="you@example.com"
+          />
+        </div>
+        <div class="password text-container">
+          <div>
+            <label class="label" for="password">Password</label>
+          </div>
+
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="password textbox"
+            placeholder="Your password"
+          />
+        </div>
+      </div>
+
+      <div class="login-btn">
+        <button class="btn">Login</button>
+      </div>
+
+      <div class="signup">
+        <span class="check">
+          <input type="checkbox" name="keep-signed" id="checkbox" />
+          <label for="checkbox">Keep me signed in</label>
+        </span>
+        <span class="sign-up">
+          <a href="#" class="create-acc">Sign Up</a>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

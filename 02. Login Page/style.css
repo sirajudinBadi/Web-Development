@@ -1,0 +1,165 @@
+/*
+#4EDADD (a shade of teal)
+#5271FF (a shade of blue)
+*/
+
+/*  Global Style */
+
+:root {
+  --bodybgcolor: rgb(226, 221, 221);
+  --btncolor: #5271ff;
+  --btnhovercolor: #385cfe;
+  --bgcolor: #ffffff;
+  --purewhite: white;
+  --colorblack: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bodybgcolor);
+}
+
+/*  Container Styling   */
+.container {
+  margin: 0 5vw;
+  background-color: var(--bgcolor);
+  padding: 20px;
+  width: 25vw;
+  position: relative;
+  top: 100px;
+  right: 15vw;
+  left: 30vw;
+  border-radius: 15px;
+}
+
+/*  Top Part Styling  */
+.company-logo {
+  text-align: center;
+  margin: 25px 0 15px 0;
+}
+
+.sign-in-text {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/*  Direct Login Styling  */
+.direct-login {
+  margin: 30px 0 15px 0;
+}
+.direct {
+  border: 1px solid var(--bodybgcolor);
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px 0;
+  margin-bottom: 15px;
+}
+
+.direct:hover {
+  border: 1px solid var(--btncolor);
+}
+
+.direct a {
+  text-decoration: none;
+  color: var(--colorblack);
+  font-weight: 500;
+}
+
+.google img {
+  position: relative;
+  top: 4px;
+  right: 3px;
+}
+
+.apple img {
+  position: relative;
+  right: 8px;
+  top: 3px;
+}
+
+/*  OR Line Styling   */
+.lines {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  flex: 1;
+  background-color: var(--bodybgcolor);
+}
+
+/*Textarea Styling*/
+
+.textbox {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border: 1px solid var(--bodybgcolor);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.textbox:hover {
+  border: 1px solid var(--btncolor);
+}
+
+.text-container {
+  margin: 10px 0 20px 0;
+}
+
+/*  Button Styling  */
+.login-btn {
+  margin: 30px 0 20px 0;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  background-color: var(--btncolor);
+  color: var(--bgcolor);
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: var(--btnhovercolor);
+}
+
+/*  Sign in area Styling  */
+.signup {
+  width: 100%;
+  font-size: 1.2em;
+  /* align-items: center; */
+}
+
+/* .sign-up {
+  
+  align-items: end;
+  position: relative;
+  right: 0;
+  margin-left: 55%;
+  /* text-align: end; 
+} */
+
+.create-acc {
+  text-decoration: none;
+  color: var(--colorblack);
+  font-weight: 500;
+  position: absolute;
+  right: 20px;
+}
