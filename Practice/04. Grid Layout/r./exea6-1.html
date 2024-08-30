@@ -1,0 +1,335 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 6.1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .main {
+        display: grid;
+        grid-template-areas:
+          "english german italian"
+          "spanish french brazillian-portuguese"
+          "japanese korean chinese"
+          "traditional-chinese";
+      }
+
+      .box {
+        /* height: 299px; */
+        width: auto;
+        border: 2px solid #000000;
+        margin: 2px;
+      }
+
+      .english {
+        grid-area: english;
+        background-color: aqua;
+        width: 50px;
+        height: 50px;
+      }
+
+      .german {
+        grid-area: german;
+        background-color: beige;
+        width: 50px;
+        height: 50px;
+      }
+
+      .italian {
+        background-color: black;
+        grid-area: italian;
+        width: 50px;
+        height: 50px;
+      }
+
+      .spanish {
+        grid-area: spanish;
+        width: 50px;
+        height: 50px;
+      }
+
+      .french {
+        grid-area: french;
+        width: 50px;
+        height: 50px;
+      }
+
+      .brazillian-portuguese {
+        grid-area: brazillian-portuguese;
+        width: 50px;
+        height: 50px;
+      }
+
+      .japanese {
+        grid-area: japanese;
+        width: 50px;
+        height: 50px;
+      }
+
+      .korean {
+        grid-area: korean;
+        width: 50px;
+        height: 50px;
+      }
+
+      .chinese {
+        grid-area: chinese;
+        width: 50px;
+        height: 50px;
+      }
+
+      .traditional-chinese {
+        grid-area: traditional-chinese;
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box english">English</div>
+      <div class="box german">German</div>
+      <div class="box italian">Italian</div>
+      <div class="box spanish">Spanish</div>
+      <div class="box french">French</div>
+      <div class="box brazillian-portuguese">Brazillian Portuguese</div>
+      <div class="box japanese">Japanese</div>
+      <div class="box korean">Korean</div>
+      <div class="box chinese">Chinese</div>
+      <div class="box traditional-chinese">Traditional Chinese</div>
+    </div>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 6.1</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      .main {
+        display: grid;
+        grid-template-areas:
+          "english german italian"
+          "spanish french brazillian-portuguese"
+          "japanese korean chinese"
+          "traditional-chinese blank blank";
+        grid-template-columns: repeat(3, 315px);
+        grid-template-rows: repeat(4, auto);
+        gap: 10px;
+
+        margin: 10% 18%;
+      }
+
+      .box {
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        word-break: break-all;
+        text-align: center;
+      }
+
+      .download {
+        background-color: green;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 5px 15px;
+        margin: 30px 0 15px 0;
+        color: #fff;
+        font-weight: 500;
+      }
+
+      .sha {
+        font-size: 10px;
+        padding-bottom: 5px;
+      }
+
+      .key {
+        font-size: 8px;
+        padding-bottom: 5px;
+        line-height: 18px;
+      }
+
+      .lang {
+        font-size: large;
+        font-weight: bold;
+      }
+      .english {
+        grid-area: english;
+        background-color: #f9f9f9;
+        overflow-wrap: break-word;
+      }
+
+      .german {
+        grid-area: german;
+        background-color: #f9f9f9;
+      }
+
+      .italian {
+        grid-area: italian;
+        background-color: #f9f9f9;
+      }
+
+      .spanish {
+        grid-area: spanish;
+        background-color: #f9f9f9;
+      }
+
+      .french {
+        grid-area: french;
+        background-color: #f9f9f9;
+      }
+
+      .brazillian-portuguese {
+        grid-area: brazillian-portuguese;
+        background-color: #f9f9f9;
+      }
+
+      .japanese {
+        grid-area: japanese;
+        background-color: #f9f9f9;
+      }
+
+      .korean {
+        grid-area: korean;
+        background-color: #f9f9f9;
+      }
+
+      .chinese {
+        grid-area: chinese;
+        background-color: #f9f9f9;
+      }
+
+      .traditional-chinese {
+        width: 295px;
+        grid-area: traditional-chinese;
+        background-color: #f9f9f9;
+      }
+
+      .blank {
+        grid-area: blank;
+      }
+
+      @media only screen and (max-width: 455px) {
+        .main {
+          display: grid;
+          grid-template-areas:
+            "english"
+            "german"
+            "italian"
+            "spanish"
+            "french"
+            "brazillian-portuguese"
+            "japanese"
+            "korean"
+            "chinese"
+            "traditional-chinese";
+          grid-template-columns: repeat(3, 315px);
+          grid-template-rows: repeat(4, auto);
+          gap: 10px;
+          margin: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box english">
+        <div class="lang">English</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box german">
+        <div class="lang">German</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box italian">
+        <div class="lang">Italian</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box spanish">
+        <div class="lang">Spanish</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box french">
+        <div class="lang">French</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box brazillian-portuguese">
+        <div class="lang">Brazillian Portuguese</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box japanese">
+        <div class="lang">Japanese</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box korean">
+        <div class="lang">Korean</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box chinese">
+        <div class="lang">Chinese</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="box traditional-chinese">
+        <div class="lang">Traditional Chinese</div>
+        <div class="download">Download 64-bit</div>
+        <div class="sha">SHA256</div>
+        <div class="key">
+          02A753B54430A2E29ECADAEAEBCCC4EAF7B9629FF37E98CEB61C84527CF6A779
+        </div>
+      </div>
+      <div class="blank"></div>
+    </div>
+  </body>
+</html>
