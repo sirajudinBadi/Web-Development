@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RB Navbar</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+    <style>
+      :root {
+        --blackcolor: #000000;
+        --whitecolor: #ffffff;
+        --btncolor-red: #ff5c5d;
+        --first-sec-bgcolor: #60ea9f;
+        --frst-sec-btncolor: #fee333;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+        padding: 10px 0;
+        box-sizing: border-box;
+        border-bottom: 5px solid var(--blackcolor);
+        background-color: var(--whitecolor);
+        z-index: 1;
+      }
+
+      .menu ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 250px;
+      }
+
+      .menu ul li {
+        display: flex;
+        margin-left: 60px;
+        cursor: pointer;
+        font-size: large;
+        font-weight: 500;
+      }
+
+      select {
+        border: none;
+      }
+      .navbtn {
+        text-align: center;
+        border: 1px solid var(--blackcolor);
+        padding: 15px 30px;
+        background-color: var(--btncolor-red);
+        border-radius: 10px;
+        box-shadow: 2px 2px 0 0 var(--blackcolor);
+        font-weight: 600;
+      }
+
+      /* First Section Styling
+      .container-sec1 {
+        background-color: var(--first-sec-bgcolor);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .subcontainer1-sec1 {
+        display: flex;
+        justify-content: center;
+      }
+
+      .text-sec1 {
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 100px;
+      }
+      .heading-sec1 {
+        /* font-size: 3em; 
+      }
+      .description-sec1 {
+        font-size: 0.75em;
+        font-weight: 400;
+      } */
+    </style>
+  </head>
+  <body>
+    <!--NAVIGATION BAR-->
+    <div class="container">
+      <div class="logo">
+        <img src="./asset/logo.png" alt="Brand Logo" />
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li>About</li>
+          <li>
+            Services
+            <select name="services" id="services"></select>
+          </li>
+          <li>Career</li>
+          <li><span class="navbtn">BOOK A CALL</span></li>
+        </ul>
+      </div>
+    </div>
+    <!--
+    
+    <div class="container-sec1">
+      
+      <div class="subcontainer1-sec1">
+        <div class="text-sec1">
+          <h1 class="heading-sec1">
+            <pre>
+              SaaS Marketing 
+              Agency That Drives 
+              Organic Growth <img
+                src="./asset/1/1f680.svg"
+                alt="Roket Growth Emoji"
+                height="36px"
+              />
+            </pre>
+          </h1>
+
+          <h2 class="description-sec1">
+            <pre>
+
+              We're a data-driven organic growth agency helping SaaS businesses leverage 
+              SEO and content marketing strategies to build pipelines, achieve revenue 
+              targets, and increase MRR.
+            </pre>
+          </h2>
+          <div class="btn-sec1">Book 1-1 Strategy Call</div>
+        </div>
+
+        
+        <div class="image">
+          <img
+            src="./asset/1/lady-logo.png"
+            alt="Design Image for section"
+            width="272"
+            height="300"
+          />
+        </div>
+      </div>
+      <div class="arrow-sec1">
+        <img src="./asset/1/Arrow_01.png" alt="Navigation arrow" />
+      </div>
+
+      
+      <span class="star pink"
+        ><img src="./asset/1/astrik-pink.png" alt="Pattern Design"
+      /></span>
+      <span class="star orange"
+        ><img src="./asset/1/orange-asterik.png" alt="Pattern Design"
+      /></span>
+      <span class="star purple"
+        ><img src="./asset/1/purple-asterik.png" alt="Pattern Design"
+      /></span>
+      <span class="star spark"
+        ><img src="./asset/1/star.png" alt="Pattern Design"
+      /></span>
+
+      
+      <div class="subcontainer2-sec1">
+        <div class="trusted-by-sec1">
+          <h2 class="sec1-foot-text">Trusted by</h2>
+          <div class="brands brand1">
+            <img
+              src="./asset/1/1.brand.png"
+              alt="Brand logo of brands that trusts us"
+            />
+          </div>
+          <div class="brands brand2">
+            <img
+              src="./asset/1/2. brand.png"
+              alt="Brand logo of brands that trusts us"
+            />
+          </div>
+          <div class="brands brand3">
+            <img
+              src="./asset/1/3. brand.png"
+              alt="Brand logo of brands that trusts us"
+            />
+          </div>
+          <div class="brands brand4">
+            <img
+              src="./asset/1/4. brand.png"
+              alt="Brand logo of brands that trusts us"
+            />
+          </div>
+          <div class="brands brand5">
+            <img
+              src="./asset/1/5. brand.png"
+              alt="Brand logo of brands that trusts us"
+            />
+          </div>
+          <div class="brands brand6">
+            <img
+              src="./asset/1/6. brand.png"
+              alt="Brand logo of brands that trusts us"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+  </body>
+</html>

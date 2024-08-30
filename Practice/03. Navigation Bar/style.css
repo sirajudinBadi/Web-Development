@@ -1,0 +1,67 @@
+/*
+Yellow (Discovery and Analysis): #FFD700
+Green (Strategy Development): #66CDAA
+Red (Implementation and Execution): #FF6347
+Blue (Monitoring and Optimization): #00BFFF
+Purple (Reporting and Refinement): #DA70D6
+
+*/
+
+:root {
+  --e-global-color-primary: #6ec1e4;
+  --e-global-color-secondary: #54595f;
+  --e-global-color-text: #808080;
+  --e-global-color-accent: #61ce70;
+  --e-global-color-5923c55: #39dcff;
+  --e-global-color-63cc406: #dd7eff;
+  --e-global-color-8cf1fb6: #ff5c5d;
+  --e-global-color-1bc05de: #60ea9f;
+  --e-global-color-8f0a923: #ffb443;
+  --e-global-color-a66f9e6: #8679ff;
+  --e-global-color-05b53c5: #8679ff;
+  --e-global-color-2702df0: #faebcc;
+  --e-global-color-b16e212: #fee333;
+  --e-global-color-602103e: #0e0729;
+  --e-global-color-white: #fff;
+  --e-global-color-black: #333;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Roboto";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
+  --e-global-typography-ed4867e-font-family: "Santoshi";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  border: 2px solid black;
+}
+
+.logo {
+  display: flex;
+  padding: 1em 0.5em 1em 10vw;
+
+  /* justify-content: ; */
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: center;
+  /* margin: 35px 15px 0 10vw; */
+}
