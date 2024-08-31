@@ -1,0 +1,113 @@
+/* body {
+  background: rgb(82, 113, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(82, 113, 255, 1) 30%,
+    rgba(78, 218, 221, 1) 100%
+  );
+} */
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+}
+body {
+  background-color: #ede7d7;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+/*  STYLING FOR 1ST NAVBAR*/
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 143px;
+  /* margin-top: 100px; */
+  background-color: #ffffff;
+}
+.logo {
+  cursor: pointer;
+}
+.menus ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.menus ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+  cursor: pointer;
+}
+.login {
+  cursor: pointer;
+  color: #605dff;
+}
+.learning-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: linear-gradient(90deg, #5da8ff, #605dff 50%, #ad63f6);
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.coming-soon {
+  border-radius: 7px;
+  background-color: #d5edfb;
+  color: rgb(0, 84, 137);
+  font-weight: 700;
+  padding: 1px 5px;
+  font-size: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/*  STYLING FOR 2nd NAVBAR*/
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 321px;
+  background-color: #ffffff;
+}
+
+.logo2 {
+  cursor: pointer;
+  margin: 5px 0;
+}
+.start-btn {
+  background-color: rgba(82, 113, 255, 1);
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav2 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav2 ul li {
+  list-style: none;
+  cursor: pointer;
+}
