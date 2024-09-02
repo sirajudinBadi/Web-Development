@@ -1,1 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://assets.gumroad.com/assets/pink-icon-c5f5013768a1da41246e70403f02afc8b34ac89c20f3ba2dd0a01f3973027700.png"
+      type="image/icon type"
+    />
+    <title>Gumroad</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="heading">
+      <nav class="navbar">
+        <div class="container-nav1">
+          <div class="logo">
+            <img src="./asset/logo.jpg" alt="Gumroad Logo" height="24" />
+          </div>
+          <div class="searchbar">
+            <div class="search-icon">
+              <img src="./asset/search.png" alt="SEarch icon" height="18" />
+            </div>
+            <div class="search-input">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                class="search"
+                placeholder="Search products"
+              />
+            </div>
+          </div>
+          <div class="btns">
+            <div class="login-btn btn">Log In</div>
+            <div class="sell-btn btn">Start selling</div>
+          </div>
+        </div>
 
+        <div class="container-nav2">
+          <ul>
+            <li class="all">All</li>
+            <li>Design</li>
+            <li>Drawing & Painting</li>
+            <li>3D</li>
+            <li>Self Improvement</li>
+            <li>Music & Sound Design</li>
+            <li>Films</li>
+            <li>Business & Money</li>
+            <li>
+              <label for="more">More</label>
+              <select name="more" id="more" class="more"></select>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-area">
+      <div class="main-area-heading"><h2>Products by Category</h2></div>
+      <section class="section-area">
+        <div class="parent">
+          <div class="container container1">
+            <div class="box1">
+              <img src="./asset/3d.svg" alt="" height="68.54" width="96" />
+            </div>
+            <div class="box2">
+              <div><h2>3D</h2></div>
+              <div>
+                Perfect your craft with the same tools used at Dreamworks and
+                Pixar.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />16K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />93K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />21M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container2">
+            <div class="box1">
+              <img src="./asset/design.svg" alt="" height="68.54" width="96" />
+            </div>
+            <div class="box2">
+              <div><h2>Design</h2></div>
+              <div>
+                Code, design, and ship your dream product with these technical
+                resources.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />24K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />98K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />31M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container3">
+            <div class="box1">
+              <img
+                src="./asset/drawing-painting.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Drawing & Painting</h2></div>
+              <div>
+                Tutorials, plugins, and brushes from pro concept artists and
+                illustrators.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />19K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />115K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />27M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container4">
+            <div class="box1">
+              <img
+                src="./asset/software-dev.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Software Development</h2></div>
+              <div>
+                Learn to code and tools to help you code more productively.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />10K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />36K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />11M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container5">
+            <div class="box1">
+              <img
+                src="./asset/self-improvement.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Self Improvement</h2></div>
+              <div>
+                Move your body and your audience with guides, videos, and more.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />18K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />52K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />9M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container6">
+            <div class="box1">
+              <img
+                src="./asset/fitness-health.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Fitness & Health</h2></div>
+              <div>
+                Whether you're looking to shed or shred, here are coaches to
+                pump you up.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />5K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />14K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />1M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container7">
+            <div class="box1">
+              <img
+                src="./asset/music-sound.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Music & Sound Design</h2></div>
+              <div>
+                Tracks, beats, and loops from the best musicians and engineers
+                in the biz.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />11K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />80K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />10M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container8">
+            <div class="box1">
+              <img
+                src="./asset/photography.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Photography</h2></div>
+              <div>
+                Get snapping with pro presets, stock imagery, and digi darkroom
+                needs.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />8K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />68K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />4M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container9">
+            <div class="box1">
+              <img
+                src="./asset/writing-publishing.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Writing & Publishing</h2></div>
+              <div>
+                Fill your brain with words and wisdom from creative authors and
+                storytellers.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />19K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />75K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />6M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container10">
+            <div class="box1">
+              <img
+                src="./asset/business-money.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Business & Money</h2></div>
+              <div>Learn to earn in an increasingly unpredictable world.</div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />18K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />38K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />5M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container11">
+            <div class="box1">
+              <img
+                src="./asset/education.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Education</h2></div>
+              <div>
+                Pick up a new skill with courses and guides from world-class
+                pros.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />24K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />106K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />16M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container12">
+            <div class="box1">
+              <img
+                src="./asset/comics-graphic-novels.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Comics & Graphic Novels</h2></div>
+              <div>
+                Sequential art with loads of heart. Welcome to a paradise of
+                panels.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />6K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />35K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />4M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container13">
+            <div class="box1">
+              <img src="./asset/fiction.svg" alt="" height="68.54" width="96" />
+            </div>
+            <div class="box2">
+              <div><h2>Fiction Books</h2></div>
+              <div>
+                Short stories, novellas, and epic tomes full of interesting
+                characters and worlds.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />2K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />5K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />304M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container14">
+            <div class="box1">
+              <img src="./asset/audio.svg" alt="" height="68.54" width="96" />
+            </div>
+            <div class="box2">
+              <div><h2>Audio</h2></div>
+              <div>
+                Open your ears and mind to interviews, meditations, and true
+                crime thrillers.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />2K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />13K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />734M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container15">
+            <div class="box1">
+              <img
+                src="./asset/recorded-music.svg"
+                alt=""
+                height="68.54"
+                width="96"
+              />
+            </div>
+            <div class="box2">
+              <div><h2>Recorded Music</h2></div>
+              <div>
+                Perfect your craft with the same tools used at Dreamworks and
+                Pixar.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />660K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />2K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />167M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container16">
+            <div class="box1">
+              <img src="./asset/films.svg" alt="" height="68.54" width="96" />
+            </div>
+            <div class="box2">
+              <div><h2>Films</h2></div>
+              <div>
+                Have a movie night with some of the best stories to hit the
+                small screen.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />8K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />93K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />9M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container17">
+            <div class="box1">
+              <img src="./asset/gaming.svg" alt="" height="68.54" width="96" />
+            </div>
+            <div class="box2">
+              <div><h2>Gaming</h2></div>
+              <div>
+                Explore new worlds from the world's most creative indie
+                developers.
+              </div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />6K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />39K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />6M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="container container18">
+            <div class="box1">
+              <img src="./asset/other.svg" alt="" height="68.54" width="96" />
+            </div>
+            <div class="box2">
+              <div><h2>Other</h2></div>
+              <div class="counts">
+                <span class="count-icons"
+                  ><img src="./asset/person.svg" alt="" height="17" />104K
+                  creators</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/products.svg" alt="" height="17" />449K
+                  products</span
+                >
+                <span class="count-icons"
+                  ><img src="./asset/dollars.svg" alt="" height="17" />34M
+                  sales</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="text">
+        <h2>With Gumroad, anyone can earn their first dollar online.</h2>
+      </div>
+      <div class="start-selling-btn">
+        Start selling
+        <img
+          src="./asset/final-right-arrow2.svg"
+          alt="left-arrow"
+          height="18"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
