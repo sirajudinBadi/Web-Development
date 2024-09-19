@@ -1,0 +1,2 @@
+This directory serve the purpose to store the raw files that were created while practicing or creating the projects for web development purposes.
+In this directory I will be storing the Flowcharts and Diagrams required to understand the basic flow of the work or to plan out the structure of the project.
